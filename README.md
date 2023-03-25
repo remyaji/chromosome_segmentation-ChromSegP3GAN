@@ -1,4 +1,4 @@
-# Chromosome_segmentation-ChromSegP3GAN
+# Chromosome segmentation-ChromSegP3GAN
 ## Overview
 The details of dataset, trained models and python codes are available here for the segmentation of overlapping chromosome clusters with two chromosomes.
 ### Details of Dataset
