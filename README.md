@@ -6,8 +6,8 @@ Clusters with exactly two chromosomes are generated from the G banded metaphase 
 These images are provided as .npz file, .h5 file and .png file in Mendeley data. These datasets can be accessed via  [MendeleyData](https://data.mendeley.com/drafts/h5b3zbtw8v).
 
 ### Codes
-- Python code for preprocessing labels 
-- Python code for cGAN based models 
+- [Python code for preprocessing labels](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/preprocess_mask.ipynb)
+- Python code for cGAN based models  
 - Python code for literature models 
 
 ## References
