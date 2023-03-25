@@ -7,8 +7,11 @@ These images are provided as .npz file, .h5 file and .png file in Mendeley data.
 
 ### Codes
 - [Python code for preprocessing labels](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/preprocess_mask.ipynb)
-- Python code for cGAN based models  
-- Python code for literature models 
+- Python code for cGAN based models 
+ 
+    cGAN with Attention UNet as generator is demonstrated [here](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/cGAN%20models). Other generators like R2UNet, R2AttentionUNet, NestedUNet and UNet are available in [util/networks.py](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/cGAN%20models/util/networks.py). Training the models creats two .pth files in the checkpoint directory and upon testing the results are generated as shown in the folder [results](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/cGAN%20models/results). The quantitative results for  the tested model can be evaluated with [evaluation.ipynb](
+    
+- Python code for literature models. 
 
 ## References
 <a id="1">[1]</a> R S, Remya; C, Gopakumar; S, Hariharan; Prasad, Hari (2022), “Overlapping and touching G banded chromosome dataset”, Mendeley Data, V1, doi: 10.17632/h5b3zbtw8v.1
