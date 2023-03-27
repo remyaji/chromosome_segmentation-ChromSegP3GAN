@@ -19,7 +19,7 @@ These images are provided as .npz file, .h5 file and .png file in Mendeley data.
 
    This model is proposed for efficient segmentation of overlapping and touching G banded chromosomes. The code [ChromSeg_P3GAN_train]() and [ChromSeg_P3GAN_test]() are respectively for training and testing the models. Intermediate qualitative results are saved in [plot](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/ChromSegP3GAN/plot) and the models at specified intervals are saved in [model](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/ChromSegP3GAN/model). The loss values during the training are also saved as shown in [csv](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/ChromSegP3GAN/csv). 
    
-   #Summary 
+  ## Summary 
    
     ChromSeg-P3GAN, an efficent GAN based model can be used for the segmnetation of overlappin and touching G banded chromosomes. 
     
