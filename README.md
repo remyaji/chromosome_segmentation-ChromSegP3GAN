@@ -11,7 +11,9 @@ These images are provided as .npz file, .h5 file and .png file in Mendeley data.
  
     cGAN with Attention UNet as generator is demonstrated [here](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/cGAN%20models). Other generators like R2UNet, R2AttentionUNet, NestedUNet and UNet are available in [util/networks.py](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/cGAN%20models/util/networks.py). Training the models creats two .pth files in the checkpoint directory and upon testing the results are generated as shown in the folder [results](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/cGAN%20models/results). The quantitative results for  the tested model can be evaluated with [evaluation.ipynb](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/cGAN%20models/evaluation.ipynb).
     
-- Python code for literature models. 
+- [Python code for Non-GAN models](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/SegmentationModels(Non-GAN))
+
+  Certain classical semantic segmentation models like UNet, SegNet and other state-of-the-art models like Attention UNet, R2UNet, R2Attention UNet, Nested UNet[3] are extended forour datasets and are available [here](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/SegmentationModels(Non-GAN)). Definitions of Attention UNet, R2UNet, R2Attention UNet  are available in [Nested_UNet.ipynb](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/SegmentationModels(Non-GAN)/Nested_UNet.ipynb) and can be trained by necessary modifications in the same code (the replacement of model names as specified in the definitios are just required). The quantitative and qualitative results are demonstrated in the same code. Please note the codes [UNet.ipunb](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/SegmentationModels(Non-GAN)/UNet.ipynb) and [SegNet.ipynb]) are the extended version of [6] and [7](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/SegmentationModels(Non-GAN)/SegNet.ipynb) are the extended version of references [6] and [7] respectively. 
 
 ## References
 <a id="1">[1]</a> R S, Remya; C, Gopakumar; S, Hariharan; Prasad, Hari (2022), “Overlapping and touching G banded chromosome dataset”, Mendeley Data, V1, doi: 10.17632/h5b3zbtw8v.1
@@ -23,3 +25,7 @@ These images are provided as .npz file, .h5 file and .png file in Mendeley data.
 <a id="4">[4]</a>https://github.com/liyemei/AMFL
 
 <a id="5">[5]</a>https://github.com/LeeJunHyun/Image_Segmentation
+
+<a id="6">[6]</a>https://github.com/LilyHu/image_segmentation_chromosomes
+
+<a id="7">[7]</a>https://github.com/ArkaJU/SegNet---Chromosome
