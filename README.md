@@ -21,7 +21,7 @@ These images are provided as .npz file, .h5 file and .png file in Mendeley data.
    
   ## Summary 
    
-    ChromSeg-P3GAN, an efficent GAN based model can be used for the segmnetation of overlappin and touching G banded chromosomes. 
+    ChromSeg-P3GAN, an efficent GAN based model can be used for the segmnetation of overlapping and touching G banded chromosomes. 
     
     
 ## References
