@@ -6,7 +6,7 @@ Clusters with exactly two chromosomes are generated from the G banded metaphase 
 These images are provided as .npz file, .h5 file and .png file in Mendeley data. These datasets can be accessed via  [MendeleyData](https://data.mendeley.com/drafts/h5b3zbtw8v).
 
 ### Codes
-- [Python code for preprocessing labels](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/preprocess_mask.ipynb)
+- [Python code for preprocessing labels](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/preprocess_mask.py)
 - [Python code for cGAN based models](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/cGAN%20models) 
  
     cGAN with Attention UNet as generator is demonstrated [here](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/cGAN%20models). Other generators like R2UNet, R2AttentionUNet, NestedUNet and UNet are available in [util/networks.py](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/cGAN%20models/util/networks.py). Every other generators can be utilized just by replacing "AttU_Net" in the 489th line of "networks.py" with the other generator name as specified in its definition.   Training the models creats two .pth files in the checkpoint directory and upon testing the results are generated as shown in the folder [results](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/tree/main/cGAN%20models/results). The quantitative results for  the tested model can be evaluated with [evaluation.ipynb](https://github.com/remyaji/chromosome_segmentation-ChromSegP3GAN/blob/main/cGAN%20models/evaluation.ipynb).
